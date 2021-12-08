@@ -1,7 +1,8 @@
 <template>
   <div class="home">
+    <h1>Hello! It is the first page.</h1>
+    <button onclick="alert('You are touch this button.')">Enter on me</button>
     <HelloWorld :msg="message"/>
-
   </div>
 </template>
 

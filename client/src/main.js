@@ -5,4 +5,5 @@ import axios from 'axios'
 
 axios.defaults.withCredentials=false;
 
-createApp(App).use(router).mount('#app')
+createApp(App).use(router).mount('#app');
+
